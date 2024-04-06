@@ -1,0 +1,10 @@
+Assert.assertEquals(String actual, String expected);
+
+Save the actual URL post-login into a string value, which is:
+String actualUrl="https://www.browserstack.com/users/sign_in";
+
+The Expected URL can be identified by using the method below:
+String expectedUrl= driver.getCurrentUrl();
+
+The final assertion would look like:
+Assert.assertEquals(actualUrl, expectedUrl);
