@@ -1,0 +1,2 @@
+driver.findElement(By.id("user_password"));
+WebElement password=driver.findElement(By.id("user_password"));
